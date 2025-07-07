@@ -1,8 +1,8 @@
 # cinema/admin.py
 from __future__ import annotations
-from django.contrib import admin
-from django.db.models import Sum
-from django.utils.timezone import now
+from django.contrib import admin # type: ignore
+from django.db.models import Sum # type: ignore
+from django.utils.timezone import now # type: ignore
 
 from . import models
 
